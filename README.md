@@ -1,4 +1,4 @@
-# Cisco NetFlow Traffic Analysis & Network Security Monitoring
+# NetFlow Traffic Analysis & Network Security Monitoring
 
 A Cisco Packet Tracer implementation demonstrating network flow monitoring, traffic baselining, and anomaly detection using the Cisco NetFlow protocol.
 
@@ -10,12 +10,14 @@ NetFlow provides granular visibility into IP network traffic flows as they trave
 - **Network Baselines:** Monitors traffic patterns between internal LAN endpoints and external destinations.
 - **Cisco IOS CLI Verification:** Validates flow record caching, active/inactive timeouts, and packet distribution directly via router EXEC commands.
 
-```
-## Security Application
- * **Data Exfiltration Detection:** Tracks unusual outbound traffic volumes and unexpected destination IP addresses.
- * **Incident Response:** Provides network-layer flow context during SIEM alert triage and threat hunting operations.
 ## Screenshots & Verification
-### Network Topology
-### Cisco IOS Flow Cache Verification
 
-```
+### Network Topology
+![Network Topology Diagram](./topology.png)
+
+### Cisco IOS Flow Cache Verification
+![CLI Verification](./cli_verification.png)
+
+## Security Application
+- **Data Exfiltration Detection:** Tracks unusual outbound traffic volumes and unexpected destination IP addresses.
+- **Incident Response:** Provides network-layer flow context during SIEM alert triage and threat hunting operations.
