@@ -13,7 +13,7 @@ NetFlow provides granular visibility into IP network traffic flows as they trave
 ## Screenshots & Verification
 
 ### Network Topology
-![Network Topology Diagram](./packet_tracer.png)
+![Network Topology Diagram](./packettracer.png)
 
 ### Cisco IOS Flow Cache Verification
 ![CLI Verification](./cli_verification.png)
