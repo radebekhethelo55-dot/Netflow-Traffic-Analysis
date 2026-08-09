@@ -16,7 +16,7 @@ NetFlow provides granular visibility into IP network traffic flows as they trave
 ![Network Topology Diagram](./packettracer.png)
 
 ### Cisco IOS Flow Cache Verification
-![CLI Verification](./cli_verification.png)
+![CLI Verification](./netflow)
 
 ## Security Application
 - **Data Exfiltration Detection:** Tracks unusual outbound traffic volumes and unexpected destination IP addresses.
